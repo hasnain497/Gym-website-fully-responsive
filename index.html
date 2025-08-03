@@ -1,0 +1,563 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   BeastMode Gym - Unleash Your Potential
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  
+ </head>
+ <body>
+  <!-- Navbar -->
+  <nav aria-label="Primary navigation" id="navbar" role="navigation">
+   <div aria-label="BeastMode Gym logo" class="logo">
+    BEASTMODE GYM
+   </div>
+   <ul class="nav-links" role="menubar">
+    <li role="none">
+     <a class="active" href="#hero" role="menuitem" tabindex="0">
+      Home
+     </a>
+    </li>
+    <li role="none">
+     <a href="#programs" role="menuitem" tabindex="-1">
+      Programs
+     </a>
+    </li>
+    <li role="none">
+     <a href="#trainers" role="menuitem" tabindex="-1">
+      Trainers
+     </a>
+    </li>
+    <li role="none">
+     <a href="#gallery" role="menuitem" tabindex="-1">
+      Gallery
+     </a>
+    </li>
+    <li role="none">
+     <a href="#join" role="menuitem" tabindex="-1">
+      Join Now
+     </a>
+    </li>
+   </ul>
+   <div aria-expanded="false" aria-label="Toggle menu" id="hamburger" role="button" tabindex="0">
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+   </div>
+  </nav>
+  <!-- Mobile Menu -->
+  <div aria-hidden="true" id="mobile-menu">
+   <a href="#hero" tabindex="-1">
+    Home
+   </a>
+   <a href="#programs" tabindex="-1">
+    Programs
+   </a>
+   <a href="#trainers" tabindex="-1">
+    Trainers
+   </a>
+   <a href="#gallery" tabindex="-1">
+    Gallery
+   </a>
+   <a href="#join" tabindex="-1">
+    Join Now
+   </a>
+  </div>
+  <!-- Hero Section -->
+  <section aria-label="Hero section with gym brand name and 3D animated gym scene" id="hero">
+   <div class="parallax-layer layer-bg">
+   </div>
+   <div class="parallax-layer layer-fog">
+   </div>
+   <div class="parallax-layer layer-lights">
+   </div>
+   <div class="parallax-layer layer-silhouettes">
+   </div>
+   <div class="content">
+    <div aria-atomic="true" aria-live="polite" class="text">
+     <h1>
+      BEASTMODE GYM
+     </h1>
+     <h2>
+      Unleash Your Potential
+     </h2>
+    </div>
+    <div aria-label="3D rotating dumbbell image" id="dumbbell" role="img" tabindex="0">
+     <img alt="Red 3D dumbbell with glowing edges rotating" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/95e4813a-419f-440a-1bcb-657126ed2012.jpg" width="400"/>
+    </div>
+   </div>
+   <svg aria-hidden="true" focusable="false" id="heartbeat-svg" viewbox="0 0 600 60">
+    <path d="M0 30 L50 30 L70 10 L90 50 L110 30 L150 30 L170 20 L190 40 L210 30 L250 30 L270 10 L290 50 L310 30 L350 30 L370 20 L390 40 L410 30 L450 30 L470 10 L490 50 L510 30 L550 30 L570 20 L590 40 L600 30" id="heartbeat-path">
+    </path>
+   </svg>
+  </section>
+  <!-- Programs Section -->
+  <section aria-label="Workout programs offered by BeastMode Gym" id="programs">
+   <h2>
+    Programs
+   </h2>
+   <div class="program-cards">
+    <article aria-describedby="desc-strength" class="program-card slide-in-left" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-dumbbell">
+      </i>
+     </div>
+     <h3>
+      Strength
+     </h3>
+     <p id="desc-strength">
+      Build muscle and power with our expert strength training programs.
+     </p>
+     <div aria-label="Strength program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="desc-hiit" class="program-card slide-in-right" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-bolt">
+      </i>
+     </div>
+     <h3>
+      HIIT
+     </h3>
+     <p id="desc-hiit">
+      High-intensity interval training to burn fat and boost endurance.
+     </p>
+     <div aria-label="HIIT program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="desc-cardio" class="program-card slide-in-left" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-running">
+      </i>
+     </div>
+     <h3>
+      Cardio
+     </h3>
+     <p id="desc-cardio">
+      Improve heart health and stamina with our cardio-focused workouts.
+     </p>
+     <div aria-label="Cardio program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="desc-crossfit" class="program-card slide-in-right" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-fire">
+      </i>
+     </div>
+     <h3>
+      CrossFit
+     </h3>
+     <p id="desc-crossfit">
+      Functional fitness and strength combined in dynamic CrossFit sessions.
+     </p>
+     <div aria-label="CrossFit program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="desc-personal" class="program-card slide-in-left" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-user">
+      </i>
+     </div>
+     <h3>
+      Personal Training
+     </h3>
+     <p id="desc-personal">
+      One-on-one coaching tailored to your fitness goals.
+     </p>
+     <div aria-label="Personal training program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="desc-nutrition" class="program-card slide-in-right" tabindex="0">
+     <div class="program-card-bgzoom">
+     </div>
+     <div class="icon">
+      <i aria-hidden="true" class="fas fa-apple-alt">
+      </i>
+     </div>
+     <h3>
+      Nutrition
+     </h3>
+     <p id="desc-nutrition">
+      Customized meal plans to fuel your transformation.
+     </p>
+     <div aria-label="Nutrition program progress" class="progress-bar">
+      <div aria-hidden="true" class="progress-bar-fill" style="width: 0%;">
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <!-- Trainers Section -->
+  <section aria-label="Meet the trainers at BeastMode Gym" id="trainers">
+   <h2>
+    Trainers
+   </h2>
+   <div class="trainer-cards">
+    <article aria-describedby="trainer-desc-1" aria-label="Trainer John Doe" class="trainer-card" tabindex="0">
+     <div class="trainer-inner">
+      <div class="trainer-front">
+       <img alt="Portrait of trainer John Doe" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/089f59a8-4eea-4ad6-e529-2c20cb92d1fe.jpg" width="400"/>
+       <h3>
+        John Doe
+       </h3>
+       <p>
+        Strength Coach
+       </p>
+      </div>
+      <div class="trainer-back">
+       <div class="stat-bar">
+        <div class="stat-label">
+         Experience
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 90%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Specialty
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 85%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Years Trained
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 80%;">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="trainer-desc-2" aria-label="Trainer Sarah Lee" class="trainer-card" tabindex="0">
+     <div class="trainer-inner">
+      <div class="trainer-front">
+       <img alt="Portrait of trainer Sarah Lee" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3d630bcf-bf49-44e6-339a-3417dbd06297.jpg" width="400"/>
+       <h3>
+        Sarah Lee
+       </h3>
+       <p>
+        HIIT Specialist
+       </p>
+      </div>
+      <div class="trainer-back">
+       <div class="stat-bar">
+        <div class="stat-label">
+         Experience
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 85%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Specialty
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 95%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Years Trained
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 75%;">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="trainer-desc-3" aria-label="Trainer Mike Johnson" class="trainer-card" tabindex="0">
+     <div class="trainer-inner">
+      <div class="trainer-front">
+       <img alt="Portrait of trainer Mike Johnson" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/76742d67-b991-4667-25aa-5d62f81c3743.jpg" width="400"/>
+       <h3>
+        Mike Johnson
+       </h3>
+       <p>
+        Cardio Expert
+       </p>
+      </div>
+      <div class="trainer-back">
+       <div class="stat-bar">
+        <div class="stat-label">
+         Experience
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 80%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Specialty
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 90%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Years Trained
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 70%;">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </article>
+    <article aria-describedby="trainer-desc-4" aria-label="Trainer Emily Davis" class="trainer-card" tabindex="0">
+     <div class="trainer-inner">
+      <div class="trainer-front">
+       <img alt="Portrait of trainer Emily Davis" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/66860716-e117-4bc9-eaa0-efccf7d447a9.jpg" width="400"/>
+       <h3>
+        Emily Davis
+       </h3>
+       <p>
+        Nutrition Coach
+       </p>
+      </div>
+      <div class="trainer-back">
+       <div class="stat-bar">
+        <div class="stat-label">
+         Experience
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 75%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Specialty
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 85%;">
+         </div>
+        </div>
+       </div>
+       <div class="stat-bar">
+        <div class="stat-label">
+         Years Trained
+        </div>
+        <div class="stat-bar-bg">
+         <div class="stat-bar-fill" style="width: 65%;">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <!-- Gallery Section -->
+  <section aria-label="Gallery of gym photos and transformations" id="gallery">
+   <h2>
+    Gallery
+   </h2>
+   <div aria-roledescription="carousel" class="gallery-container" tabindex="0">
+    <div aria-label="Gym equipment side view" class="gallery-item" tabindex="0">
+     <img alt="Side view of gym equipment with red lighting" height="180" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3f194810-6e45-4061-93d9-b46a6d76fd70.jpg" width="280"/>
+     <div class="gallery-caption">
+      Equipment Side
+     </div>
+    </div>
+    <div aria-label="Gym training session" class="gallery-item" tabindex="0">
+     <img alt="Gym training session with athletes lifting weights" height="180" loading="lazy" src="https://storage.googleapis.com/a1aa/image/875cebe8-7546-45e4-2737-f7e742aae08f.jpg" width="280"/>
+     <div class="gallery-caption">
+      Training Session
+     </div>
+    </div>
+    <div aria-label="Before and after transformation photo" class="gallery-item" tabindex="0">
+     <img alt="Before and after transformation photo of gym member" height="180" loading="lazy" src="https://storage.googleapis.com/a1aa/image/8f19d78b-2cf3-4689-d27c-2980a969747a.jpg" width="280"/>
+     <div class="gallery-caption">
+      Transformation
+     </div>
+    </div>
+    <div aria-label="Gym cardio equipment" class="gallery-item" tabindex="0">
+     <img alt="Gym cardio equipment with neon red lighting" height="180" loading="lazy" src="https://storage.googleapis.com/a1aa/image/525dea67-a8bd-4775-1fae-ad61bcf62063.jpg" width="280"/>
+     <div class="gallery-caption">
+      Cardio Equipment
+     </div>
+    </div>
+    <div aria-label="Group workout class" class="gallery-item" tabindex="0">
+     <img alt="Group workout class in gym with energetic atmosphere" height="180" loading="lazy" src="https://storage.googleapis.com/a1aa/image/80ad414d-23ab-4300-f4b5-7d086974dc70.jpg" width="280"/>
+     <div class="gallery-caption">
+      Group Workout
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Join Now Section -->
+  <section aria-label="Join BeastMode Gym call to action and sign up form" id="join">
+   <h2>
+    Join Now
+   </h2>
+   <div class="pricing-cards">
+    <article aria-label="Basic membership pricing card" class="pricing-card" tabindex="0">
+     <h3>
+      Basic
+     </h3>
+     <div class="price">
+      $29/mo
+     </div>
+     <ul>
+      <li>
+       Access to gym equipment
+      </li>
+      <li>
+       Group classes
+      </li>
+      <li>
+       Locker room access
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Pro membership pricing card" class="pricing-card" tabindex="0">
+     <h3>
+      Pro
+     </h3>
+     <div class="price">
+      $59/mo
+     </div>
+     <ul>
+      <li>
+       All Basic features
+      </li>
+      <li>
+       Personal training sessions
+      </li>
+      <li>
+       Nutrition consultation
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Elite membership pricing card" class="pricing-card" tabindex="0">
+     <h3>
+      Elite
+     </h3>
+     <div class="price">
+      $99/mo
+     </div>
+     <ul>
+      <li>
+       All Pro features
+      </li>
+      <li>
+       Unlimited personal training
+      </li>
+      <li>
+       Exclusive workshops
+      </li>
+     </ul>
+    </article>
+   </div>
+   <form aria-label="Join BeastMode Gym sign up form" id="join-form" novalidate="">
+    <label for="name">
+     Full Name
+    </label>
+    <input autocomplete="name" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+    <label for="email">
+     Email Address
+    </label>
+    <input autocomplete="email" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+    <label for="membership">
+     Select Membership
+    </label>
+    <select id="membership" name="membership" required="">
+     <option disabled="" selected="" value="">
+      Select a plan
+     </option>
+     <option value="basic">
+      Basic - $29/mo
+     </option>
+     <option value="pro">
+      Pro - $59/mo
+     </option>
+     <option value="elite">
+      Elite - $99/mo
+     </option>
+    </select>
+    <button aria-label="Submit join now form" type="submit">
+     Join Now
+    </button>
+   </form>
+  </section>
+  <!-- Footer -->
+  <footer aria-label="Footer with social media links and contact info">
+   <div>
+    © 2024 BeastMode Gym. All rights reserved.
+   </div>
+   <div>
+    Contact: info@beastmodegym.com | Phone: (555) 123-4567
+   </div>
+   <div>
+    Hours: Mon-Fri 5am - 11pm | Sat-Sun 7am - 9pm
+   </div>
+   <div class="social-icons" role="list">
+    <a aria-label="Facebook" href="https://facebook.com/beastmodegym" rel="noopener" role="listitem" target="_blank">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a aria-label="Twitter" href="https://twitter.com/beastmodegym" rel="noopener" role="listitem" target="_blank">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a aria-label="Instagram" href="https://instagram.com/beastmodegym" rel="noopener" role="listitem" target="_blank">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a aria-label="YouTube" href="https://youtube.com/beastmodegym" rel="noopener" role="listitem" target="_blank">
+     <i class="fab fa-youtube">
+     </i>
+    </a>
+   </div>
+   <a class="scroll-top" href="#hero" role="button" tabindex="0">
+    Back to top ↑
+   </a>
+  </footer>
+  <script src="script.js"></script>
+ </body>
+</html>
